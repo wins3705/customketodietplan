@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+.container{max-width: 1020px!important;}
+#redirect-link{display:none;}
+
+body {
+    -webkit-font-smoothing: antialiased!important;
+    font-family: montserrat,sans-serif!important;
+    color: #040404!important;
+    font-family: droid sans,sans-serif!important;
+    font-size: 21px!important;
+    line-height: 24px!important;
+}
+.col-md-4 {
+    padding: 0 35px!important
+}
+
+.col-md-8 {
+    padding: 0 35px!important
+}
+
+.col-md-12 {
+    padding: 0 40px!Important;
+}
+html,html a {
+    -webkit-font-smoothing: antialiased!important;
+    color: #42515a
+}
+
+img {
+    max-width: 100%
+}
+
+body p {
+    margin-bottom: 20px;
+}
+
+.parallax {
+    background-image: url(images/background-v3.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60vh;
+}
+
+.contentHolder {
+    margin: auto;
+    background: #fff;
+    min-height: 100%;
+    padding-top: 1rem;
+    padding-bottom: 2rem
+}
+.container-fluid.topHeadlineHolder li a{font-size: 20px;padding-left: 0!important;padding-right: 10px!Important;}
+.container-fluid.topHeadlineHolder {
+    background: #fff;
+    padding: 20px 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #f3f0f0;
+}
+.container-fluid.topHeadlineHolder .row{margin:0}
+.row.topContentHead {
+    /* margin-bottom: 0; */
+    /* max-width: 700px */
+    margin: 0!important;
+    padding: 0 20px;
+    display: block;
+}
+.navbar{padding:0!important;/* margin-top: 5px; */}
+h3.rightWidgetH3 {
+    color: #fff;
+    background: #3e4960;
+    padding: 1rem;
+    font-weight: 700
+}
+
+.row.footerHolder {
+    margin-top: 0;
+    padding-top: 1rem;
+    color: #fff
+}
+
+.row.footerHolder p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: left;
+    font-size: 12px
+}
+
+.row.footerHolder a {
+    color: #fff;
+    text-align: left;
+    padding: 0;
+    font-size: 12px
+}
+
+.row.footerHolderLow {
+    color: #fff;
+    font-size: 12px
+}
+
+footer {
+    background: #c4c8cb;
+    padding: 0 15px;
+}
+
+img.headlineLogo {
+    float: left;
+    vertical-align: middle;
+    margin-top: 0;
+    max-width: 220px;
+}
+
+.row.topContentHead h1 {
+    font-weight: 700;
+    color: #2a2b2b;
+    font-size: 32px;
+    clear: both;
+    width: 100%!important;
+}
+
+.rightWidget p {
+    font-size: 16px;
+    color: grey;
+    line-height: 22px
+}
+
+img.headHolder {
+    float: right;
+    padding: 1rem 1rem 0
+}
+
+.aboutHolder {
+    background: #ededed;
+    padding: 1rem;
+    margin-top: -1rem
+}
+
+span.lightText {
+    font-weight: 400
+}
+
+.RecentPosts ul li {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0
+}
+
+.aboutHolder.RecentPosts ul {
+    padding: 0
+}
+
+a.blueLink {
+    color: blue;
+}
+
+@media only screen and (max-width: 768px){
+    body .navbar{float:none}
+    .col-md-8, .col-md-4, .col-md-12{padding:0px!Important}
+    .nodoNav ul{text-align:center}
+    .col-md-4{max-width:300px;margin:0 auto}
+    body p{font-size:16px}
+    body .container{padding: 0;}
+    body .row{margin:0;display:block}
+    body .navbar-nav{display:block;margin: 0 auto;}
+    .navbar-nav li{display:inline-block;}
+    img.headlineLogo{float:none;display:block;margin:0 auto}
+    .row.topContentHead{padding:0;margin:0;text-align:left;}
+    body footer,  body footer p{font-size:12px;line-height:1.2em}
+}
+
+@media screen and (max-width: 667px) {
+    .headlineLogo {
+        max-width:50%;
+        padding-top: 1rem;
+    }
+
+    .navbar {
+        padding: .5rem 0!important
+    }
+
+    .parallax {
+        background-size: contain!important;
+        background-position: left 3vh;
+        min-height: initial;
+        padding-top: 200px;
+        background-attachment: initial;
+    }
+
+    .row.topContentHead h1 {
+        font-weight: 700;
+        color: #00070e;
+        font-size: 1.2rem
+    }
+
+    .parallax {
+    }
+	img.headHolder {
+    float: left;
+    padding: 0;
+}
+}
+
+@media(min-width: 668px) {
+    .navbar-expand-lg {
+        -ms-flex-direction:row;
+        flex-direction: row;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+
+    .navbar {
+        float: right
+    }
+}
